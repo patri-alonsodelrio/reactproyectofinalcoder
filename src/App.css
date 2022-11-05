@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Roboto+Slab:wght@300;500&display=swap');
+
+/* variables */
+
+:root {
+    /* Font-family */
+    --font-principal: 'Barlow', sans-serif;
+    --font-title: 'Roboto Slab', serif;
+
+    /* Colors */
+    --primary: #120D31;
+    --secondary: #FF5376;
+    --alternative: #302F4D;
+    --text-color: #2B2B2B;
+
+    /* Font-Sizes */
+    --text-large: 5.2em;
+    --text-medium: 2.2em;
+    --text-base: 1.6em;
+    --text-small: 1.4em;
+}
+
+/* normalize */
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    color: #fff;
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    font-family: var(--font-principal);
+    background: #202324;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: var(--font-title);
+    color: #fff;
+}
+
+
+img {
+    width: 100%;
+}
+
+/* main productos*/
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20rem;
+}

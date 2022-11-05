@@ -1,0 +1,58 @@
+.item-count-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5rem 0;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    max-width: 220px;
+    width: 100%;
+}
+
+.contador {
+    font-size: 1.4em;
+    border: 1px solid hsla(240,2%,50%,.15);
+    border-radius: 0;
+    cursor: pointer;
+    max-width: 300px;
+    padding: 6.5px 0;
+    text-align: center;
+    width: 100%;
+    color: #b0a99f;
+    background-color: hsla(197,3%,41%,.42);
+    user-select: none;
+}
+
+.btn-resta, .btn-suma {
+    padding: 0 0.5rem;
+    height: 36px;
+    font-size: 15px;
+    font-family: 'Roboto';
+    background-color: hsla(240,2%,50%,.15);
+    border: none;
+    padding: 7.5px 15px;
+    border-radius: 5px 0 0 5px;
+}
+
+.btn-suma {
+    border-radius: 0 5px 5px 0;
+}
+
+/* contador stock */
+.count-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stock {
+    font-size: 1.4em;
+}
+
+.toastify-warning {
+    font-size: 1.5em;
+}

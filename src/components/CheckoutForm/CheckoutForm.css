@@ -1,0 +1,24 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-item {
+    font-size: 1.5em;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.form-input {
+    all: unset;
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 4px;
+    color: #000;
+}
